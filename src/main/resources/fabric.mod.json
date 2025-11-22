@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "lyxithapi",
+  "version": "${version}",
+  "name": "LyXithAPI",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/lyxithapi/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "org.lyxith.lyxithapi.Lyxithapi"
+    ]
+  },
+  "mixins": [
+    "lyxithapi.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "*"
+  }
+}

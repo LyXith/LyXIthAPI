@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.lyxith.lyxithapi.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "GmCmdMixin",
+    "OpCustomDataMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
