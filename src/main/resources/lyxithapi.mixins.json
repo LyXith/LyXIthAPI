@@ -5,7 +5,9 @@
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "GmCmdMixin",
-    "OpCustomDataMixin"
+    "OpCustomDataMixin",
+    "TpCmdMixin",
+    "updateCustomEntityTagMixin"
   ],
   "client": [
   ],
